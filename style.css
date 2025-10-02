@@ -1,0 +1,343 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.background-1 {
+    background-color: whitesmoke;
+}
+
+.background-2 {
+    background-color: rgb(205, 191, 231);
+}
+
+.start-div {
+    padding-top: 50px;
+}
+
+
+
+
+/* navbar section */
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+.ml-5 {
+    margin-left: 15px;
+}
+
+.nav-item:hover {
+    background: linear-gradient(333.24deg, rgba(205, 191, 231, 0.5) 20%, rgba(238, 215, 171, 0.5) 80%);
+    border-radius: 10px;
+    border: solid 1px;
+    transition: background 0.3s ease-in-out;
+}
+
+.custom-button {
+    border: 2px solid black;
+    padding: 5px 15px;
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+.custom-button:hover {
+    box-shadow: 5px 5px 7px -2px black;
+
+}
+
+.logo {
+    width: 80px;
+    margin-top: -30px;
+}
+
+
+
+
+
+/* main header */
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: blue;
+    text-shadow: 10px 4px red;
+}
+
+
+
+
+/* carousel section */
+
+.carousel-item img {
+    max-height: 650px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.content-of {
+    padding: 60px 100px;
+    font-size: 18px;
+    padding-bottom: 120px;
+    border-bottom: solid 3px;
+    text-align: center;
+}
+
+
+
+
+
+/* service section */
+
+.custom-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px 1px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-footer {
+    border-top: none;
+    background: transparent;
+}
+
+.learn-more {
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-weight: bold;
+    width: -webkit-fill-available;
+    background: linear-gradient(333.24deg, #CDBFE7 20%, #EED7AB 80%);
+    transition: background 0.3s ease;
+}
+
+.learn-more:hover {
+    background: linear-gradient(333.24deg, #6846a7 20%, #bae0f4 80%);
+}
+
+
+.characters {
+    width: 170px;
+    height: 180px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Projects section */
+
+.game-buttons .btn {
+    border-radius: 20px;
+    background: white;
+    box-shadow: 5px 5px black;
+    border: none;
+    font-weight: bold;
+}
+
+.game-buttons .btn:hover {
+    background: lightgray;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid;
+}
+
+.game-text {
+    max-width: 500px;
+    padding: 20px;
+}
+
+.game-image img {
+    width: 500px;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+
+
+/* headings */
+
+.headings {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    -webkit-text-fill-color: transparent;
+    background: rgb(22, 8, 253);
+    background: linear-gradient(180deg, rgba(22, 8, 253, 1) 0%, rgba(91, 91, 144, 1) 53%, rgba(6, 17, 19, 1) 100%);
+    -webkit-background-clip: text;
+}
+
+
+
+
+
+/* process section */
+
+.process-bg {
+    background-color: rgb(46, 44, 44);
+}
+
+.process-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.process-image {
+    align-content: center;
+
+}
+
+.process-image img {
+    width: 100%;
+    max-width: 560px;
+    align-content: center;
+    border-radius: 15px;
+    border: solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-header {
+    background-color: #eacda3;
+}
+
+.accordion-button {
+    background-color: #eacda3;
+    color: #1e1e1e;
+    border-radius: 15px !important;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.accordion-button:hover {
+    background-color: #d6b38a;
+}
+
+.accordion-item {
+    background-color: #eacda3;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+/* clients section */
+
+.bg-fixed {
+    background-image: url('https://cdna.artstation.com/p/users/covers/001/623/678/default/c8dcc716dd4a5b60ccc8f4452580fc81.jpg?1700729827');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.clients-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.clients-section span {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    background: linear-gradient(35deg, rgb(205, 191, 231) 16.7%, rgb(238, 215, 171) 85.01%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.client-logo {
+    max-width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.client-logo:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+/* contact section */
+
+.collab-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.highlight {
+    color: #FFC72C;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.message {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #FFC72C;
+}
+
+.contact-info {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        text-align: center;
+    }
+
+    .collab-section .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
